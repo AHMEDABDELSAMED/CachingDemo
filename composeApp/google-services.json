@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "519524875233",
+    "firebase_url": "https://kmmm-4727e-default-rtdb.firebaseio.com",
+    "project_id": "kmmm-4727e",
+    "storage_bucket": "kmmm-4727e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519524875233:android:b416f5e8dafbd1eae430a0",
+        "android_client_info": {
+          "package_name": "com.stevdza_san.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZFLwu7LHwt-NesI2lcEEKUgslWSPWwRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519524875233:android:95bf59628a20532ee430a0",
+        "android_client_info": {
+          "package_name": "com.stevdza_san.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZFLwu7LHwt-NesI2lcEEKUgslWSPWwRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

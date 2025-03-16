@@ -1,0 +1,110 @@
+[versions]
+agp = "8.5.2"
+android-compileSdk = "35"
+android-minSdk = "24"
+android-targetSdk = "35"
+androidx-activityCompose = "1.10.0"
+androidx-lifecycle = "2.8.4"
+coilCompose = "3.0.4"
+compose-multiplatform = "1.7.0"
+composeMultiplatformMediaPlayer = "1.0.30"
+extensionsComposeJetpack = "2.1.0"
+firebaseAuth = "2.1.0"
+kotlin = "2.1.0"
+
+mockk = "1.13.5"
+mpfilepicker = "3.1.0"
+multiplatformPaging = "1.0.0"
+multiplatformPagingVersion = "3.1.1"
+navigationCompose = "2.8.0-alpha10"
+sqldelight = "2.0.2"
+ktor = "2.3.12"
+settings = "1.2.0"
+dateTime = "0.6.1"
+koin = "4.0.0"
+
+composeNavigation = "2.8.6"
+serialization = "1.6.3"
+voyagerNavigator = "1.1.0-beta02"
+room = "2.7.0-rc01"
+ksp = "2.0.21-1.0.27"
+sqlite = "2.5.0-SNAPSHOT"
+
+assertk = "0.28.1"
+coreKtx = "1.6.1"
+composeTest = "1.6.8"
+junit = "4.13.2"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+androidx-lifecycle-viewmodel = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+
+arkivanov-decompose = { module = "com.arkivanov.decompose:decompose" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
+coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
+compose-multiplatform-media-player = { module = "network.chaintech:compose-multiplatform-media-player", version.ref = "composeMultiplatformMediaPlayer" }
+decompose = { module = "com.arkivanov.decompose:decompose", version.ref = "extensionsComposeJetpack" }
+firebase-auth = { module = "dev.gitlive:firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { module = "dev.gitlive:firebase-database", version.ref = "firebaseAuth" }
+firebase-storage = { module = "dev.gitlive:firebase-storage", version.ref = "firebaseAuth" }
+jetbrains-navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+mpfilepicker = { module = "com.darkrockstudios:mpfilepicker", version.ref = "mpfilepicker" }
+sqldelight-android = { module = "app.cash.sqldelight:android-driver", version.ref = "sqldelight" }
+sqldelight-ios = { module = "app.cash.sqldelight:native-driver", version.ref = "sqldelight" }
+
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+
+multiplatform-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings" }
+multiplatform-settings-no-arg = { module = "com.russhwolf:multiplatform-settings-no-arg", version.ref = "settings" }
+
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "dateTime" }
+
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-compose = { module = "io.insert-koin:koin-compose", version.ref = "koin" }
+koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "koin" }
+
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "composeNavigation" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization"}
+voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyagerNavigator" }
+voyager-tab-navigator = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyagerNavigator" }
+voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyagerNavigator" }
+
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-runtime-android = { module = "androidx.room:room-runtime-android", version.ref = "room" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
+
+
+
+assertk = { module = "com.willowtreeapps.assertk:assertk", version.ref = "assertk" }
+compose-ui-test-junit4-android = { module = "androidx.compose.ui:ui-test-junit4-android", version.ref = "composeTest" }
+compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "composeTest" }
+core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtx" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+
+
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "compose-multiplatform" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinxSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+sqlDelight = { id = "app.cash.sqldelight", version.ref = "sqldelight" }
+
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+room = { id = "androidx.room", version.ref = "room" }
+
+
+
