@@ -6,8 +6,8 @@ import com.stevdza_san.demo.data.remote.PostApi
 
 import com.stevdza_san.demo.domain.Postt
 import com.stevdza_san.demo.domain.RequestState
-import com.stevdza_san.demo.room.AppDatabaseConstructor
-import com.stevdza_san.demo.room.Post
+import com.stevdza_san.demo.data.room.AppDatabaseConstructor
+import com.stevdza_san.demo.data.room.Post
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
 import kotlinx.coroutines.flow.Flow

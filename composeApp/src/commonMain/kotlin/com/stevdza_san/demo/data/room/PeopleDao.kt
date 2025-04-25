@@ -1,4 +1,4 @@
-package com.stevdza_san.demo.room
+package com.stevdza_san.demo.data.room
 
 import androidx.room.Dao
 import androidx.room.Delete

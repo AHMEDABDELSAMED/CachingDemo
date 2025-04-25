@@ -21,8 +21,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.navigator.Navigator
-import com.stevdza_san.demo.ui.Homescreen
-import com.stevdza_san.demo.ui.LoginScreen
+import com.stevdza_san.demo.presentation.ui.Homescreen
+import com.stevdza_san.demo.presentation.ui.LoginScreen
+import com.stevdza_san.demo.presentation.ui.NextHome
 import dev.gitlive.firebase.FirebaseApp
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import org.koin.compose.viewmodel.koinViewModel
@@ -31,7 +32,7 @@ import org.koin.compose.viewmodel.koinViewModel
 @Preview
 fun App() {
     MaterialTheme {
-       Navigator(LoginScreen())
+       Navigator(NextHome())
     }
 }
 

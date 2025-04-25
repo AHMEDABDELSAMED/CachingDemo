@@ -1,10 +1,16 @@
 package com.stevdza_san.demo
 
+import android.content.Intent
+import android.os.Build.VERSION_CODES.R
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.mmk.kmpnotifier.extensions.onCreateOrOnNewIntent
+import com.mmk.kmpnotifier.notification.NotifierManager
+import com.mmk.kmpnotifier.notification.configuration.NotificationPlatformConfiguration
+import com.stevdza_san.demo.NotifierInitializer.NotifierInitializer
 import dev.gitlive.firebase.Firebase
 import dev.gitlive.firebase.FirebaseApp
 import dev.gitlive.firebase.FirebaseOptions
@@ -14,6 +20,7 @@ import dev.gitlive.firebase.initialize
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
 
         Firebase.initialize(applicationContext,
@@ -29,6 +36,8 @@ class MainActivity : ComponentActivity() {
             App()
         }
     }
+
+
 }
 
 @Preview

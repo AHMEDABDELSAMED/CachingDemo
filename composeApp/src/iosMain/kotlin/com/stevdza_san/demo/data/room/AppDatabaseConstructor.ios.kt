@@ -1,12 +1,12 @@
-package com.stevdza_san.demo.room
+package com.stevdza_san.demo.data.room
 
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room.RoomDatabaseConstructor
 import kotlinx.cinterop.ExperimentalForeignApi
 import platform.Foundation.NSDocumentDirectory
-import platform.Foundation.NSUserDomainMask
 import platform.Foundation.NSFileManager
+import platform.Foundation.NSUserDomainMask
+
 
 fun getDatabaseBuilder(): RoomDatabase.Builder<PeopleDatabase> {
     val dbFilePath = documentDirectory() + "/my_room.db"

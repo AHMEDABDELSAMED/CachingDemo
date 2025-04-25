@@ -1,4 +1,4 @@
-package com.stevdza_san.demo.room
+package com.stevdza_san.demo.data.room
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

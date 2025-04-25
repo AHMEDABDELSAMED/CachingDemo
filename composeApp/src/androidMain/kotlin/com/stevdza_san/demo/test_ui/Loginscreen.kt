@@ -29,15 +29,18 @@ import cachingdemo.composeapp.generated.resources.D1
 import cachingdemo.composeapp.generated.resources.Res
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
+import coil3.compose.AsyncImage
 import coil3.compose.rememberAsyncImagePainter
 import com.arkivanov.decompose.ComponentContext
 import com.arkivanov.decompose.DefaultComponentContext
 import com.arkivanov.essenty.lifecycle.LifecycleRegistry
 import com.stevdza_san.demo.login.LoginViewModel
-import com.stevdza_san.demo.room.Post
-import com.stevdza_san.demo.ui.Homescreen
+import com.stevdza_san.demo.data.room.Post
+import com.stevdza_san.demo.domain.Postv
+import com.stevdza_san.demo.presentation.ui.Homescreen
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.painterResource
 import org.koin.compose.getKoin
+
 
 

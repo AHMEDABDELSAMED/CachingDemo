@@ -30,6 +30,7 @@ kotlin {
     ).forEach { iosTarget ->
         iosTarget.binaries.framework {
             baseName = "ComposeApp"
+            export("io.github.mirzemehdi:kmpnotifier:1.5.1")
             isStatic = true
         }
     }
@@ -48,6 +49,7 @@ kotlin {
 
             implementation(libs.sqldelight.ios)
             implementation(libs.ktor.client.darwin)
+            implementation("io.github.mirzemehdi:kmpnotifier:1.5.1")
         }
         androidMain.dependencies {
             implementation(compose.preview)
@@ -104,11 +106,15 @@ kotlin {
             implementation(libs.compose.multiplatform.media.player)
 
             implementation(libs.decompose)
+            implementation(libs.kmp.viewmodel.compose)
 
-            //implementation(libs.multiplatform.paging)
+            implementation(libs.paging.common)
+            implementation(libs.paging.compose.common)
+
 
             implementation(libs.room.runtime)
             implementation(libs.sqlite.bundled)
+            api(libs.kmpnotifier)
 
 
 

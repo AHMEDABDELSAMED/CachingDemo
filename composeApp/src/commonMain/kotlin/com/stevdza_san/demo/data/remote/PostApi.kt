@@ -1,7 +1,7 @@
 package com.stevdza_san.demo.data.remote
 
 import com.stevdza_san.demo.domain.Postt
-import com.stevdza_san.demo.room.Post
+import com.stevdza_san.demo.data.room.Post
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
